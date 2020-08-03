@@ -53,7 +53,7 @@ h1 {
     transform: rotate(25deg)
 }
 .dogie{
-    width: 40%;
+    /*width: 40%;*/
 }
 
 .dogie:hover{
