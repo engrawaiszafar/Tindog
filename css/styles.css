@@ -6,6 +6,7 @@ body {
     background-color: #dd2c00;
     color: white;
     padding-bottom: 12rem;
+    width: auto;
 }
 
 /*Nav bar*/
@@ -13,11 +14,20 @@ body {
 
 .myNav{
     background-color: #ff5722;
+    min-height: 80px;
 }
 .navbar-brand {
     font-family: 'Ubuntu';
     font-size: 2.5rem;
     font-weight: bold;
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+}
+.navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
 }
 
 .navbar-nav{
