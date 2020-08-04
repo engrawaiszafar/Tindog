@@ -3,7 +3,7 @@ body {
 }
 
 #title {
-    background-color: #dd2c00;
+    background-color: #810000;
     color: white;
     padding-bottom: 12rem;
     width: auto;
@@ -13,7 +13,7 @@ body {
 
 
 .myNav{
-    background-color: #ff5722;
+    background-color: #3c2c3e;
     min-height: 80px;
 }
 .navbar-brand {
@@ -112,7 +112,7 @@ margin: 5% 5% 5% 0;
 #testimonials{
 
     text-align: center;
-    background-color: #ff5722;
+    background-color: #b52b65;
     color: white;
 }
 
@@ -124,4 +124,14 @@ margin: 5% 5% 5% 0;
 
 .carousel-inner{
     padding: 7% 15%;
+}
+
+/*Press*/
+#press{
+    background-color: #b52b65;
+    padding: 5%;
+    text-align: center;
+}
+.press-logo{
+    padding-right: 5%;
 }
