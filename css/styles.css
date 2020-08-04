@@ -128,7 +128,7 @@ margin: 5% 5% 5% 0;
 
 /*Press*/
 #press{
-    background-color: #be5683;
+    background-color: #b52b65;
     padding: 5%;
     text-align: center;
 }
@@ -149,6 +149,9 @@ margin: 5% 5% 5% 0;
     margin-top: 5%;
 }
 
+.card{
+    margin-top: 3%;
+}
 .card-header{
     background-color: #810000;
     color: white;
