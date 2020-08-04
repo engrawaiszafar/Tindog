@@ -144,3 +144,22 @@ margin: 5% 5% 5% 0;
 .listing-info{
  height: 150px;
 }
+
+.deck-card{
+    margin-top: 5%;
+}
+
+.card-header{
+    background-color: #810000;
+    color: white;
+}
+.card-header:hover{
+    background-color: #b52b65;
+}
+
+.card-body{
+    background-color: #ffe78f;
+}
+.card-body:hover{
+    background-color: #ffd36b;
+}
