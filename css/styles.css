@@ -11,16 +11,15 @@ body {
 
 /*Mobiles*/
 /* Portrait and Landscape */
-@media screen
-and (device-width: 360px)
-and (device-height: 640px)
-and (-webkit-device-pixel-ratio: 2) {
+@media (min-device-width: 200px)
+and (max-device-width: 1199px)
+{
     .myNav {
         background-color: #ffd36b;
     }
     .navbar-brand {
         font-family: 'Ubuntu';
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: bold;
         padding: 0 15px;
         height: 60px;
@@ -50,45 +49,6 @@ and (-webkit-device-pixel-ratio: 2) {
     }
 
 }
-/*Tablets*/
-/* Portrait and Landscape */
-@media (min-device-width: 800px)
-and (max-device-width: 1200px) {
-    .myNav {
-        background-color: #8f8f8f;
-    }
-    .navbar-brand {
-        font-family: 'Ubuntu';
-        font-size: 3rem;
-        font-weight: bold;
-        padding: 0 15px;
-        height: 60px;
-        line-height: 60px;
-    }
-
-    .navbar-toggle {
-        /* (80px - button height 34px) / 2 = 23px */
-        margin-top: 23px;
-        padding: 9px 10px !important;
-    }
-
-    .navbar-toggler-icon {
-        font-size: 3rem;
-    }
-
-    .navbar-nav {
-        margin-left: auto;
-    }
-
-    .nav-item {
-        padding: 0 1rem;
-    }
-
-    .nav-link {
-        font-size: 3rem;
-    }
-}
-
 
 /*-------------Laptops Navigations-------------*/
 
