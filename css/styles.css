@@ -54,7 +54,7 @@ and (max-device-width: 1199px)
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen
-and (min-device-width: 1200px) 
+and (min-device-width: 1200px)
 {
 
     .navbar-brand {
@@ -102,7 +102,6 @@ h2 {
 /*Greeting msg and dog pic*/
 
 .greeting {
-    text-align: center;
     margin: 0;
     padding-right: 20%;
     padding-left: 15%;
@@ -111,15 +110,18 @@ h2 {
 .greetingmsg {
     padding-top: 2rem;
     padding-bottom: 3rem;
+    text-align: center;
 }
 
 .dogpic {
     /*padding-bottom: 0px;*/
     transform: rotate(25deg);
+    text-align: center;
 }
 
 .dogie {
-    padding-top: 2rem;
+    padding-top: 5rem;
+margin-left: 5rem;
 }
 
 .dogie:hover {
@@ -169,7 +171,7 @@ h2 {
 #testimonials {
 
     text-align: center;
-    background-color: #b52b65;
+    background-color: #ff5722;
     color: white;
 }
 
@@ -185,7 +187,7 @@ h2 {
 
 /*Press*/
 #press {
-    background-color: #b52b65;
+    background-color: #ff5722;
     padding: 5%;
     text-align: center;
 }
@@ -218,7 +220,7 @@ h2 {
 }
 
 .card-header:hover {
-    background-color: #b52b65;
+    background-color: #ff5722;
 }
 
 .card-body {
@@ -227,4 +229,24 @@ h2 {
 
 .card-body:hover {
     background-color: #ffd36b;
+}
+
+/*Call to Action*/
+#cta{
+    background-color: #ff5722;
+    text-align: center;
+}
+.ctaText{
+    padding: 2% 15%;
+    color: white;
+}
+.logo{
+    padding: 5% 1% 1%;
+    color: black;
+}
+#footer{
+    text-align: center;
+}
+.footertext{
+    color: gray;
 }
