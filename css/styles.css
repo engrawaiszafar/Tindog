@@ -8,18 +8,18 @@ body {
 }
 
 /*Nav bar*/
-
+.myNav {
+    background-color: #ff5722;
+}
 /*Mobiles*/
 /* Portrait and Landscape */
 @media (min-device-width: 200px)
 and (max-device-width: 1199px)
 {
-    .myNav {
-        background-color: #ffd36b;
-    }
+
     .navbar-brand {
         font-family: 'Ubuntu';
-        font-size: 2.5rem;
+        font-size: 3rem;
         font-weight: bold;
         padding: 0 15px;
         height: 60px;
@@ -54,50 +54,8 @@ and (max-device-width: 1199px)
 
 /* ----------- Non-Retina Screens ----------- */
 @media screen
-and (min-device-width: 1200px)
-and (max-device-width: 2000px)
-and (-webkit-min-device-pixel-ratio: 1) {
-    .myNav {
-        background-color: #ff5722;
-    }
-
-    .navbar-brand {
-        font-family: 'Ubuntu';
-        font-size: 2.5rem;
-        font-weight: bold;
-        padding: 0 15px;
-        height: 60px;
-        line-height: 60px;
-    }
-
-    .navbar-toggle {
-        /* (80px - button height 34px) / 2 = 23px */
-        margin-top: 23px;
-        padding: 9px 10px !important;
-    }
-
-    .navbar-nav {
-        margin-left: auto;
-    }
-
-    .nav-item {
-        padding: 0 1rem;
-    }
-
-    .nav-link {
-        font-size: 1.2rem;
-    }
-}
-
-/* ----------- Retina Screens ----------- */
-@media screen
-and (min-device-width: 1200px)
-and (max-device-width: 1600px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (min-resolution: 192dpi) {
-    .myNav {
-        background-color: #ff5722;
-    }
+and (min-device-width: 1200px) 
+{
 
     .navbar-brand {
         font-family: 'Ubuntu';
